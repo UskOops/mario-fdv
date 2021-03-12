@@ -1,0 +1,89 @@
+@font-face {
+	font-family:Titulo;
+	src:url(ANODETONOONE.TTF);
+}
+
+h1 {
+	font-family:Titulo;
+	font-size:40px;
+	color:#975c09;
+}
+
+body {
+	background-image:url(../3739446.jpg);
+}
+
+#container{
+	margin: 0;
+	width: 930px;
+	height:auto;
+	position:flex;
+	margin-left:auto;
+	margin-right:auto;
+	max-block-size: 0vh;
+}
+
+
+#fundoGame {
+	width:950px;
+	height:630px;
+	background-image:url(../back.png);
+	border-color:rgb(228, 173, 22);
+	border-style:solid;
+	background-size: 95%;
+}
+
+
+#img {
+	position: relative;
+	left: 400px;
+	top: 300px;
+	height: auto;
+	width: auto;
+}
+
+
+#inicio {
+	width:350px;
+	height:200px;
+	background-color:#FFF;
+ 	margin-left:auto;
+        margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+	padding:10px;
+
+}
+
+@keyframes play {
+	from {background-position:0px;}
+	to {background-position:-512px;}
+}
+
+
+@-webkit-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+@-o-keyframes play {
+   from { background-position:0px; }
+     to { background-position: -512px; }
+}
+
+
+
+
+
+
+
